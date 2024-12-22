@@ -3,7 +3,6 @@
     justify-content: center;
     margin: 10px 0;
     flex-wrap: wrap;
-    /* Allow buttons to wrap on smaller screens */
 }
 
 .pagination-btn {
@@ -38,11 +37,9 @@
     font-size: 14px;
 }
 
-/* Responsive styling for smaller screens */
 @media (max-width: 768px) {
     .pagination-btn {
         font-size: 12px;
-        /* Reduce button font size */
         padding: 4px 8px;
     }
 

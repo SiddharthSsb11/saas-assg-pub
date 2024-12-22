@@ -23,7 +23,6 @@ const Pagination = ({
       }
     } else {
       if (currentPage <= 3) {
-        // Show the first few pages and the last page with truncation
         range.push(1, 2, 3, "...", totalPages);
       } else if (currentPage >= totalPages - 2) {
         // Show the last few pages and the first page with truncation
