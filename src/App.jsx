@@ -18,7 +18,7 @@ const App = () => {
 
   return (
     <div className="app-container">
-      <h1 className="app-title">Kickstarter Projects</h1>
+      <h1 className="app-title">Assignment Projects</h1>
       {loading ? (
         <div className="loader">Loading...</div>
       ) : (
