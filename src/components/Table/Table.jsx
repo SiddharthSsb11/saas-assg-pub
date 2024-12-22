@@ -22,7 +22,7 @@ const Table = ({ data, rowsPerPage }) => {
         <tbody>
           {currentRows.map((project, index) => (
             <tr key={index}>
-              <td>{project["s.no"]}</td>
+              <td>{(currentPage - 1) * rowsPerPage + index + 1}</td>
               <td>{project["percentage.funded"]}</td>
               <td>{project["amt.pledged"]}</td>
             </tr>
