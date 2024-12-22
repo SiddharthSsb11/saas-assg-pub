@@ -1,0 +1,42 @@
+.table-container {
+    margin: 20px auto;
+    width: 80%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow-x: auto;
+    /* Ensure horizontal scrolling for small screens */
+}
+
+.projects-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.projects-table th,
+.projects-table td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.projects-table th {
+    background-color: #f4f4f4;
+}
+
+.projects-table tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .table-container {
+        width: 100%;
+    }
+
+    .projects-table th,
+    .projects-table td {
+        font-size: 12px;
+        /* Reduce font size for better readability */
+        padding: 8px;
+    }
+}
